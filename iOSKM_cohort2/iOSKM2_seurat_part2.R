@@ -373,7 +373,7 @@ sub.o$Age_Treatment <- factor(sub.o$Age_Treatment, levels=c("young_untr","old_un
 sub.o$Celltype <- factor(sub.o$Celltype.LowRes, levels = CELLS, ordered = T)
 
 subsub <- subset(sub.o, Age_Treatment!="old_2Dox5") #3857 cells
-### This is "svz_iOSKM_cohort2_toshare.rds" in github ###
+
 
 # Colors
 col2 <- c("turquoise2","firebrick", "mediumorchid")
